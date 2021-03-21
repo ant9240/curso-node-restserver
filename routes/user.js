@@ -12,9 +12,9 @@ const router = Router();
 
 router.get('/', usuariosGet)
 
-router.post('/', usuariosPost)
-
 router.put('/:id', usuariosPut)
+
+router.post('/', usuariosPost)
 
 router.patch('/', usuariosPatch)
 
